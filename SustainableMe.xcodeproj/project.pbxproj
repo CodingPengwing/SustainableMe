@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9A84CC326D011200094D253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CC226D011200094D253 /* AppDelegate.swift */; };
-		A9A84CC526D011200094D253 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CC426D011200094D253 /* SceneDelegate.swift */; };
-		A9A84CC726D011200094D253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CC626D011200094D253 /* ViewController.swift */; };
-		A9A84CCA26D011200094D253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CC826D011200094D253 /* Main.storyboard */; };
-		A9A84CCC26D011220094D253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CCB26D011220094D253 /* Assets.xcassets */; };
-		A9A84CCF26D011220094D253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CCD26D011220094D253 /* LaunchScreen.storyboard */; };
 		A9A84CDA26D011230094D253 /* SustainableMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CD926D011230094D253 /* SustainableMeTests.swift */; };
 		A9A84CE526D011230094D253 /* SustainableMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CE426D011230094D253 /* SustainableMeUITests.swift */; };
+		A9A84CF326D011390094D253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CF226D011390094D253 /* Assets.xcassets */; };
+		A9A84CF526D011410094D253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CF426D011410094D253 /* Main.storyboard */; };
+		A9A84D0126D011530094D253 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CF726D011530094D253 /* SceneDelegate.swift */; };
+		A9A84D0226D011530094D253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CF826D011530094D253 /* AppDelegate.swift */; };
+		A9A84D0326D011530094D253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CF926D011530094D253 /* LaunchScreen.storyboard */; };
+		A9A84D0426D011530094D253 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CFA26D011530094D253 /* Swift+Gif.swift */; };
+		A9A84D0526D011530094D253 /* He.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CFC26D011530094D253 /* He.gif */; };
+		A9A84D0626D011530094D253 /* Tree.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CFD26D011530094D253 /* Tree.gif */; };
+		A9A84D0726D011530094D253 /* snooze.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CFE26D011530094D253 /* snooze.gif */; };
+		A9A84D0826D011530094D253 /* Fish.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CFF26D011530094D253 /* Fish.gif */; };
+		A9A84D0926D011530094D253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84D0026D011530094D253 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +41,6 @@
 
 /* Begin PBXFileReference section */
 		A9A84CBF26D011200094D253 /* SustainableMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SustainableMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9A84CC226D011200094D253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9A84CC426D011200094D253 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9A84CC626D011200094D253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A9A84CC926D011200094D253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9A84CCB26D011220094D253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9A84CCE26D011220094D253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9A84CD026D011220094D253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9A84CD526D011230094D253 /* SustainableMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SustainableMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A84CD926D011230094D253 /* SustainableMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainableMeTests.swift; sourceTree = "<group>"; };
@@ -49,6 +48,18 @@
 		A9A84CE026D011230094D253 /* SustainableMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SustainableMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A84CE426D011230094D253 /* SustainableMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainableMeUITests.swift; sourceTree = "<group>"; };
 		A9A84CE626D011230094D253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A84CF226D011390094D253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9A84CF426D011410094D253 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A9A84CF626D011520094D253 /* SustainableMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SustainableMe-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9A84CF726D011530094D253 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9A84CF826D011530094D253 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9A84CF926D011530094D253 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9A84CFA26D011530094D253 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		A9A84CFC26D011530094D253 /* He.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = He.gif; sourceTree = "<group>"; };
+		A9A84CFD26D011530094D253 /* Tree.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Tree.gif; sourceTree = "<group>"; };
+		A9A84CFE26D011530094D253 /* snooze.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = snooze.gif; sourceTree = "<group>"; };
+		A9A84CFF26D011530094D253 /* Fish.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Fish.gif; sourceTree = "<group>"; };
+		A9A84D0026D011530094D253 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +110,16 @@
 		A9A84CC126D011200094D253 /* SustainableMe */ = {
 			isa = PBXGroup;
 			children = (
-				A9A84CC226D011200094D253 /* AppDelegate.swift */,
-				A9A84CC426D011200094D253 /* SceneDelegate.swift */,
-				A9A84CC626D011200094D253 /* ViewController.swift */,
-				A9A84CC826D011200094D253 /* Main.storyboard */,
-				A9A84CCB26D011220094D253 /* Assets.xcassets */,
-				A9A84CCD26D011220094D253 /* LaunchScreen.storyboard */,
+				A9A84CF826D011530094D253 /* AppDelegate.swift */,
+				A9A84CFB26D011530094D253 /* gifs */,
+				A9A84CF926D011530094D253 /* LaunchScreen.storyboard */,
+				A9A84CF726D011530094D253 /* SceneDelegate.swift */,
+				A9A84CFA26D011530094D253 /* Swift+Gif.swift */,
+				A9A84D0026D011530094D253 /* ViewController.swift */,
+				A9A84CF426D011410094D253 /* Main.storyboard */,
+				A9A84CF226D011390094D253 /* Assets.xcassets */,
 				A9A84CD026D011220094D253 /* Info.plist */,
+				A9A84CF626D011520094D253 /* SustainableMe-Bridging-Header.h */,
 			);
 			path = SustainableMe;
 			sourceTree = "<group>";
@@ -126,6 +140,17 @@
 				A9A84CE626D011230094D253 /* Info.plist */,
 			);
 			path = SustainableMeUITests;
+			sourceTree = "<group>";
+		};
+		A9A84CFB26D011530094D253 /* gifs */ = {
+			isa = PBXGroup;
+			children = (
+				A9A84CFC26D011530094D253 /* He.gif */,
+				A9A84CFD26D011530094D253 /* Tree.gif */,
+				A9A84CFE26D011530094D253 /* snooze.gif */,
+				A9A84CFF26D011530094D253 /* Fish.gif */,
+			);
+			path = gifs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +220,7 @@
 				TargetAttributes = {
 					A9A84CBE26D011200094D253 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					A9A84CD426D011230094D253 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -231,9 +257,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A84CCF26D011220094D253 /* LaunchScreen.storyboard in Resources */,
-				A9A84CCC26D011220094D253 /* Assets.xcassets in Resources */,
-				A9A84CCA26D011200094D253 /* Main.storyboard in Resources */,
+				A9A84D0726D011530094D253 /* snooze.gif in Resources */,
+				A9A84D0326D011530094D253 /* LaunchScreen.storyboard in Resources */,
+				A9A84CF326D011390094D253 /* Assets.xcassets in Resources */,
+				A9A84CF526D011410094D253 /* Main.storyboard in Resources */,
+				A9A84D0626D011530094D253 /* Tree.gif in Resources */,
+				A9A84D0526D011530094D253 /* He.gif in Resources */,
+				A9A84D0826D011530094D253 /* Fish.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A84CC726D011200094D253 /* ViewController.swift in Sources */,
-				A9A84CC326D011200094D253 /* AppDelegate.swift in Sources */,
-				A9A84CC526D011200094D253 /* SceneDelegate.swift in Sources */,
+				A9A84D0226D011530094D253 /* AppDelegate.swift in Sources */,
+				A9A84D0426D011530094D253 /* Swift+Gif.swift in Sources */,
+				A9A84D0926D011530094D253 /* ViewController.swift in Sources */,
+				A9A84D0126D011530094D253 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +325,6 @@
 			targetProxy = A9A84CE126D011230094D253 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A9A84CC826D011200094D253 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9A84CC926D011200094D253 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A9A84CCD26D011220094D253 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9A84CCE26D011220094D253 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A9A84CE726D011230094D253 /* Debug */ = {
@@ -436,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38UGNZK7XP;
 				INFOPLIST_FILE = SustainableMe/Info.plist;
@@ -445,6 +458,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoolTeam.SustainableMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SustainableMe/SustainableMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38UGNZK7XP;
 				INFOPLIST_FILE = SustainableMe/Info.plist;
@@ -464,6 +480,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoolTeam.SustainableMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SustainableMe/SustainableMe-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

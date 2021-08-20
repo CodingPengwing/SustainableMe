@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  SustainableMe
+//  BetterPlayground
 //
-//  Created by Tony Dang on 21/8/21.
+//  Created by Jennifer Xiang on 19/8/21.
 //
 
 import UIKit
