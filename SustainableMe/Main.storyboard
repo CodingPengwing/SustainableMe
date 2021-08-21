@@ -413,11 +413,11 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Heart" translatesAutoresizingMaskIntoConstraints="NO" id="Bc0-ny-Lw0">
-                                <rect key="frame" x="226" y="49" width="49" height="45"/>
+                                <rect key="frame" x="247" y="47" width="49" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="0/100" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wo8-8d-95U">
-                                <rect key="frame" x="271" y="49" width="124" height="48"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="0/100" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wo8-8d-95U">
+                                <rect key="frame" x="292" y="47" width="124" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -535,7 +535,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9UE-Lu-nWJ"/>
+        <segue reference="s8v-wX-86o"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Coin" width="45" height="45"/>
