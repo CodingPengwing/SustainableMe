@@ -9,10 +9,14 @@ import UIKit
 
 class DescriptionView: UIViewController {
     // get the descriptions for the tasks
-    @IBOutlet var description1: UILabel?
-    @IBOutlet var description2: UILabel?
-    @IBOutlet var description3: UILabel?
+//    @IBOutlet var description1: UILabel?
+//    @IBOutlet var description2: UILabel?
+//    @IBOutlet var description3: UILabel?
+    @IBOutlet weak var description1: UITextView!
     
+    @IBOutlet weak var description2: UITextView!
+    
+    @IBOutlet weak var description3: UITextView!
     override func viewDidLoad() {
         description1?.text = descriptions[randomNum]
         description2?.text = descriptions[(randomNum+1) % descriptions.count]
