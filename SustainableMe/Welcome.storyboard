@@ -69,7 +69,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SustainableMe provides a number of daily tasks to encourage   " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ye6-gs-MhC">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SustainableMe provides a number of daily tasks to encourage you to be more sustainable. Click on the task to find out more!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ye6-gs-MhC">
                                 <rect key="frame" x="20" y="495" width="374" height="223"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
