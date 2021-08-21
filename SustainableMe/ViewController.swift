@@ -7,7 +7,7 @@
 
 import UIKit
 
-var coinCount = 998
+var coinCount = 0
 var heartCount = 0
 
 var BoxOneCheck = false
@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var snooze: UIImageView!
     
     @IBOutlet weak var coinLabel: UILabel!
+    @IBOutlet weak var heartLabel: UILabel!
     
     @IBOutlet weak var boxOne: UIButton!
     @IBOutlet weak var boxTwo: UIButton!
@@ -83,6 +84,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         coinLabel.text = " \(coinCount)"
+        heartLabel.text = " \(heartCount)/100"
         if BoxOneCheck{
             boxOne.setImage(UIImage(named: "checked.png"), for: .normal)
         }
