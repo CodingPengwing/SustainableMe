@@ -112,7 +112,11 @@ class ViewController: UIViewController {
         
         if ViewController.continueDisplay{
             tree.loadGif(name:WelcomeViewController.petName)
-            snooze.loadGif(name:"snooze")
+            if heartCount > 0{
+                snooze.loadGif(name:"heartup")
+            } else {
+                    snooze.loadGif(name:"snooze")
+            }
         }
         
        
@@ -124,7 +128,12 @@ class ViewController: UIViewController {
         if !ViewController.displayWelcome{
             tree.loadGif(name:WelcomeViewController.petName)
             ViewController.continueDisplay = true
-            snooze.loadGif(name:"snooze")
+            if heartCount > 0{
+                snooze.loadGif(name:"heartup")
+            }
+            else{
+                snooze.loadGif(name:"snooze")
+            }
         }
         
         if ViewController.displayWelcome{
