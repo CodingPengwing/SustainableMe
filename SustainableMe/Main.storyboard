@@ -195,7 +195,6 @@
                             <constraint firstItem="dkM-VA-hQl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1vE-6Z-t8w"/>
                             <constraint firstItem="X70-gR-aSr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2Nl-jN-cB1"/>
                             <constraint firstItem="iy8-2t-rhd" firstAttribute="trailing" secondItem="Qda-L9-mfh" secondAttribute="trailing" id="5SX-Gc-uHf"/>
-                            <constraint firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="58" id="8Wf-50-q08"/>
                             <constraint firstItem="Cgh-cb-TO3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8tY-tW-vCE"/>
                             <constraint firstItem="od5-7k-pdc" firstAttribute="bottom" secondItem="S35-MG-qgG" secondAttribute="bottom" id="A1h-Y0-K0v"/>
                             <constraint firstItem="vCq-hV-xic" firstAttribute="centerY" secondItem="azw-wK-cWY" secondAttribute="centerY" id="I6t-QW-ZAr"/>
@@ -207,7 +206,6 @@
                             <constraint firstItem="7yt-Py-STw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Xp1-8X-4KY"/>
                             <constraint firstItem="od5-7k-pdc" firstAttribute="top" secondItem="S35-MG-qgG" secondAttribute="top" id="YWQ-M7-IUN"/>
                             <constraint firstItem="iy8-2t-rhd" firstAttribute="leading" secondItem="Qda-L9-mfh" secondAttribute="leading" id="bcG-Pw-cea"/>
-                            <constraint firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-102" id="f9B-aE-a0U"/>
                             <constraint firstItem="od5-7k-pdc" firstAttribute="leading" secondItem="S35-MG-qgG" secondAttribute="leading" id="kKe-y5-PFS"/>
                             <constraint firstItem="od5-7k-pdc" firstAttribute="trailing" secondItem="S35-MG-qgG" secondAttribute="trailing" id="kLq-Hc-TzA"/>
                             <constraint firstItem="Cgh-cb-TO3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kjd-PM-Qum"/>
