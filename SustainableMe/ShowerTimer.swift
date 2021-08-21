@@ -56,6 +56,7 @@ class ShowerTimer: UIViewController{
     
     // reset button
     @IBAction func resetTapped(_ sender: Any) {
+        showerGif.image = UIImage(named: "shower")
         self.count = 0
         self.timer.invalidate()
         self.TimerLabel.text = self.makeTimeString(hours: 0, minutes: 0, seconds: 0)
