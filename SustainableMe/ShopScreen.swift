@@ -20,14 +20,12 @@ var itemCheckSix   = false
  */
 class ShopScreen: UIViewController{
     
-    @IBOutlet weak var coinCountShop: UITextView!
-    @IBOutlet weak var heartCountShop: UITextView!
-    
+    @IBOutlet var coinLabelShop: UILabel!
+    @IBOutlet var heartLabelShop: UILabel!
     /*
      STEPHENSTEPHENSTEPHENSTEPHENSTEPHEN
      */
-    @IBOutlet weak var heartLabel: UITextView!
-    @IBOutlet weak var coinLabel: UITextView!
+
     @IBOutlet weak var giftButtonOne: UIButton!
     @IBOutlet weak var giftButtonTwo: UIButton!
     @IBOutlet weak var giftButtonThree: UIButton!
@@ -89,8 +87,8 @@ class ShopScreen: UIViewController{
     func buyGift(_ value: Int){
         coinCount -= value
         heartCount += value
-        coinLabel.text = " \(coinCount)"
-        heartLabel.text = " \(heartCount)%"
+        coinLabelShop.text = " \(coinCount)"
+        heartLabelShop.text = " \(heartCount)%"
         
     }
     
@@ -100,11 +98,11 @@ class ShopScreen: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        coinCountShop.text = " \(coinCount)"
+        coinLabelShop.text = " \(coinCount)"
         /*
          STEPHENSTEPHENSTEPHENSTEPHENSTEPHEN
          */
-        heartLabel.text = " \(heartCount)%"
+        heartLabelShop.text = " \(heartCount)%"
         
         if itemCheckOne{
             giftButtonOne.setImage(UIImage(named: "soldout.png"), for: .normal)
