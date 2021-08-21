@@ -82,7 +82,15 @@ class ViewController: UIViewController {
         coinLabel.text = " \(coinCount)"
         tree.loadGif(name:"Fish")
         snooze.loadGif(name:"snooze")
-        
+        if BoxOneCheck{
+            boxOne.setImage(UIImage(named: "checked.png"), for: .normal)
+        }
+        if BoxTwoCheck{
+            boxTwo.setImage(UIImage(named: "checked.png"), for: .normal)
+        }
+        if BoxThreeCheck{
+            boxThree.setImage(UIImage(named: "checked.png"), for: .normal)
+        }
     }
 
     override func viewDidAppear(_ animated: Bool) {
