@@ -45,9 +45,6 @@
                                     <constraint firstAttribute="width" constant="296" id="jTc-mP-gqB"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grass" translatesAutoresizingMaskIntoConstraints="NO" id="ZGp-jl-iKf">
-                                <rect key="frame" x="182" y="406" width="273" height="606"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlw-Sf-hpZ">
                                 <rect key="frame" x="307" y="52" width="87" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -152,20 +149,16 @@
                             <constraint firstItem="X70-gR-aSr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2Nl-jN-cB1"/>
                             <constraint firstItem="GCP-ru-gea" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="58" id="8Wf-50-q08"/>
                             <constraint firstItem="Cgh-cb-TO3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8tY-tW-vCE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZGp-jl-iKf" secondAttribute="bottom" constant="-150" id="PvX-KM-e99"/>
                             <constraint firstItem="dkM-VA-hQl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="QTa-wf-3Kq"/>
-                            <constraint firstItem="Sax-bs-tB9" firstAttribute="centerX" secondItem="ZGp-jl-iKf" secondAttribute="centerX" id="Spw-PQ-t2B"/>
                             <constraint firstItem="7yt-Py-STw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UzT-sL-Jcb"/>
                             <constraint firstItem="7yt-Py-STw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Xp1-8X-4KY"/>
                             <constraint firstItem="GCP-ru-gea" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-102" id="f9B-aE-a0U"/>
                             <constraint firstItem="Sax-bs-tB9" firstAttribute="leading" secondItem="GCP-ru-gea" secondAttribute="trailing" constant="8" symbolic="YES" id="g4P-BX-LPM"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ZGp-jl-iKf" secondAttribute="trailing" constant="-61" id="gCy-U1-sdm"/>
                             <constraint firstItem="Cgh-cb-TO3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kjd-PM-Qum"/>
                             <constraint firstItem="Cgh-cb-TO3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="249" id="p1D-kd-hin"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dkM-VA-hQl" secondAttribute="bottom" constant="118" id="sLQ-e9-nTa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X70-gR-aSr" secondAttribute="trailing" constant="20" id="thq-WK-dom"/>
                             <constraint firstItem="X70-gR-aSr" firstAttribute="top" secondItem="Cgh-cb-TO3" secondAttribute="bottom" constant="60" id="tjv-dJ-DzL"/>
-                            <constraint firstItem="ZGp-jl-iKf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="150" id="wAo-YQ-7ip"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sax-bs-tB9" secondAttribute="trailing" constant="58" id="xuL-uy-oHR"/>
                         </constraints>
                         <connections>
@@ -556,7 +549,6 @@
         <image name="Coin" width="45" height="45"/>
         <image name="Heart" width="49.5" height="45"/>
         <image name="base" width="1024" height="262.5"/>
-        <image name="grass" width="798" height="606"/>
         <image name="palmtree" width="629" height="968.5"/>
         <image name="shopframe" width="1200" height="1800"/>
         <image name="shower" width="135" height="205"/>
