@@ -7,21 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		377157A126D0FD07000A7540 /* ShopScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377157A026D0FD07000A7540 /* ShopScreen.swift */; };
-		37B5A48626D0A88100C6B4D8 /* ShowerTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B5A48526D0A88100C6B4D8 /* ShowerTimer.swift */; };
 		A9A84CDA26D011230094D253 /* SustainableMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CD926D011230094D253 /* SustainableMeTests.swift */; };
 		A9A84CE526D011230094D253 /* SustainableMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CE426D011230094D253 /* SustainableMeUITests.swift */; };
-		A9A84CF326D011390094D253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CF226D011390094D253 /* Assets.xcassets */; };
-		A9A84CF526D011410094D253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CF426D011410094D253 /* Main.storyboard */; };
-		A9A84D0126D011530094D253 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CF726D011530094D253 /* SceneDelegate.swift */; };
-		A9A84D0226D011530094D253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CF826D011530094D253 /* AppDelegate.swift */; };
-		A9A84D0326D011530094D253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CF926D011530094D253 /* LaunchScreen.storyboard */; };
-		A9A84D0426D011530094D253 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CFA26D011530094D253 /* Swift+Gif.swift */; };
-		A9A84D0526D011530094D253 /* He.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CFC26D011530094D253 /* He.gif */; };
-		A9A84D0626D011530094D253 /* Tree.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CFD26D011530094D253 /* Tree.gif */; };
-		A9A84D0726D011530094D253 /* snooze.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CFE26D011530094D253 /* snooze.gif */; };
-		A9A84D0826D011530094D253 /* Fish.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9A84CFF26D011530094D253 /* Fish.gif */; };
-		A9A84D0926D011530094D253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84D0026D011530094D253 /* ViewController.swift */; };
+		C8E7DF3F26D10E9D0051851F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7DF3326D10E9B0051851F /* ViewController.swift */; };
+		C8E7DF4126D10E9D0051851F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7DF3526D10E9C0051851F /* WelcomeViewController.swift */; };
+		C8E7DF4226D10E9D0051851F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF3626D10E9C0051851F /* LaunchScreen.storyboard */; };
+		C8E7DF4326D10E9D0051851F /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF3726D10E9C0051851F /* Welcome.storyboard */; };
+		C8E7DF4426D10E9D0051851F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7DF3826D10E9C0051851F /* SceneDelegate.swift */; };
+		C8E7DF4526D10E9D0051851F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7DF3926D10E9C0051851F /* AppDelegate.swift */; };
+		C8E7DF4626D10E9D0051851F /* ShowerTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7DF3A26D10E9C0051851F /* ShowerTimer.swift */; };
+		C8E7DF4726D10E9D0051851F /* ShopScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7DF3B26D10E9C0051851F /* ShopScreen.swift */; };
+		C8E7DF4826D10E9D0051851F /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7DF3C26D10E9C0051851F /* Swift+Gif.swift */; };
+		C8E7DF4926D10E9D0051851F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF3D26D10E9D0051851F /* Assets.xcassets */; };
+		C8E7DF4A26D10E9D0051851F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF3E26D10E9D0051851F /* Main.storyboard */; };
+		C8E7DF5B26D10F320051851F /* Tree.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF5A26D10F2D0051851F /* Tree.gif */; };
+		C8E7DF5E26D10F430051851F /* heartup.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF5D26D10F430051851F /* heartup.gif */; };
+		C8E7DF6426D10F750051851F /* snooze.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF6326D10F750051851F /* snooze.gif */; };
+		C8E7DF6B26D10F970051851F /* Fish.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF6826D10F8C0051851F /* Fish.gif */; };
+		C8E7DF7026D1101F0051851F /* He.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF6F26D110120051851F /* He.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		377157A026D0FD07000A7540 /* ShopScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopScreen.swift; sourceTree = "<group>"; };
-		37B5A48526D0A88100C6B4D8 /* ShowerTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerTimer.swift; sourceTree = "<group>"; };
 		A9A84CBF26D011200094D253 /* SustainableMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SustainableMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A84CD026D011220094D253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9A84CD526D011230094D253 /* SustainableMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SustainableMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,18 +53,23 @@
 		A9A84CE026D011230094D253 /* SustainableMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SustainableMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A84CE426D011230094D253 /* SustainableMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainableMeUITests.swift; sourceTree = "<group>"; };
 		A9A84CE626D011230094D253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9A84CF226D011390094D253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9A84CF426D011410094D253 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A9A84CF626D011520094D253 /* SustainableMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SustainableMe-Bridging-Header.h"; sourceTree = "<group>"; };
-		A9A84CF726D011530094D253 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9A84CF826D011530094D253 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9A84CF926D011530094D253 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A9A84CFA26D011530094D253 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
-		A9A84CFC26D011530094D253 /* He.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = He.gif; sourceTree = "<group>"; };
-		A9A84CFD26D011530094D253 /* Tree.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Tree.gif; sourceTree = "<group>"; };
-		A9A84CFE26D011530094D253 /* snooze.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = snooze.gif; sourceTree = "<group>"; };
-		A9A84CFF26D011530094D253 /* Fish.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Fish.gif; sourceTree = "<group>"; };
-		A9A84D0026D011530094D253 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8E7DF3326D10E9B0051851F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8E7DF3526D10E9C0051851F /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		C8E7DF3626D10E9C0051851F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8E7DF3726D10E9C0051851F /* Welcome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		C8E7DF3826D10E9C0051851F /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C8E7DF3926D10E9C0051851F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8E7DF3A26D10E9C0051851F /* ShowerTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowerTimer.swift; sourceTree = "<group>"; };
+		C8E7DF3B26D10E9C0051851F /* ShopScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopScreen.swift; sourceTree = "<group>"; };
+		C8E7DF3C26D10E9C0051851F /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		C8E7DF3D26D10E9D0051851F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8E7DF3E26D10E9D0051851F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C8E7DF5A26D10F2D0051851F /* Tree.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Tree.gif; sourceTree = "<group>"; };
+		C8E7DF5D26D10F430051851F /* heartup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = heartup.gif; sourceTree = "<group>"; };
+		C8E7DF6326D10F750051851F /* snooze.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = snooze.gif; sourceTree = "<group>"; };
+		C8E7DF6826D10F8C0051851F /* Fish.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Fish.gif; sourceTree = "<group>"; };
+		C8E7DF6F26D110120051851F /* He.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = He.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,17 +120,19 @@
 		A9A84CC126D011200094D253 /* SustainableMe */ = {
 			isa = PBXGroup;
 			children = (
-				A9A84CF826D011530094D253 /* AppDelegate.swift */,
-				A9A84CFB26D011530094D253 /* gifs */,
-				A9A84CF926D011530094D253 /* LaunchScreen.storyboard */,
-				A9A84CF726D011530094D253 /* SceneDelegate.swift */,
-				A9A84CFA26D011530094D253 /* Swift+Gif.swift */,
-				A9A84D0026D011530094D253 /* ViewController.swift */,
-				A9A84CF426D011410094D253 /* Main.storyboard */,
-				377157A026D0FD07000A7540 /* ShopScreen.swift */,
-				37B5A48526D0A88100C6B4D8 /* ShowerTimer.swift */,
-				A9A84CF226D011390094D253 /* Assets.xcassets */,
 				A9A84CD026D011220094D253 /* Info.plist */,
+				C8E7DF3926D10E9C0051851F /* AppDelegate.swift */,
+				C8E7DF3D26D10E9D0051851F /* Assets.xcassets */,
+				C8E7DF6726D10F860051851F /* gifs */,
+				C8E7DF3626D10E9C0051851F /* LaunchScreen.storyboard */,
+				C8E7DF3E26D10E9D0051851F /* Main.storyboard */,
+				C8E7DF3826D10E9C0051851F /* SceneDelegate.swift */,
+				C8E7DF3B26D10E9C0051851F /* ShopScreen.swift */,
+				C8E7DF3A26D10E9C0051851F /* ShowerTimer.swift */,
+				C8E7DF3C26D10E9C0051851F /* Swift+Gif.swift */,
+				C8E7DF3326D10E9B0051851F /* ViewController.swift */,
+				C8E7DF3726D10E9C0051851F /* Welcome.storyboard */,
+				C8E7DF3526D10E9C0051851F /* WelcomeViewController.swift */,
 				A9A84CF626D011520094D253 /* SustainableMe-Bridging-Header.h */,
 			);
 			path = SustainableMe;
@@ -148,13 +156,14 @@
 			path = SustainableMeUITests;
 			sourceTree = "<group>";
 		};
-		A9A84CFB26D011530094D253 /* gifs */ = {
+		C8E7DF6726D10F860051851F /* gifs */ = {
 			isa = PBXGroup;
 			children = (
-				A9A84CFC26D011530094D253 /* He.gif */,
-				A9A84CFD26D011530094D253 /* Tree.gif */,
-				A9A84CFE26D011530094D253 /* snooze.gif */,
-				A9A84CFF26D011530094D253 /* Fish.gif */,
+				C8E7DF6F26D110120051851F /* He.gif */,
+				C8E7DF5D26D10F430051851F /* heartup.gif */,
+				C8E7DF6826D10F8C0051851F /* Fish.gif */,
+				C8E7DF5A26D10F2D0051851F /* Tree.gif */,
+				C8E7DF6326D10F750051851F /* snooze.gif */,
 			);
 			path = gifs;
 			sourceTree = "<group>";
@@ -263,13 +272,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A84D0726D011530094D253 /* snooze.gif in Resources */,
-				A9A84D0326D011530094D253 /* LaunchScreen.storyboard in Resources */,
-				A9A84CF326D011390094D253 /* Assets.xcassets in Resources */,
-				A9A84CF526D011410094D253 /* Main.storyboard in Resources */,
-				A9A84D0626D011530094D253 /* Tree.gif in Resources */,
-				A9A84D0526D011530094D253 /* He.gif in Resources */,
-				A9A84D0826D011530094D253 /* Fish.gif in Resources */,
+				C8E7DF6B26D10F970051851F /* Fish.gif in Resources */,
+				C8E7DF7026D1101F0051851F /* He.gif in Resources */,
+				C8E7DF5E26D10F430051851F /* heartup.gif in Resources */,
+				C8E7DF4A26D10E9D0051851F /* Main.storyboard in Resources */,
+				C8E7DF4226D10E9D0051851F /* LaunchScreen.storyboard in Resources */,
+				C8E7DF4926D10E9D0051851F /* Assets.xcassets in Resources */,
+				C8E7DF6426D10F750051851F /* snooze.gif in Resources */,
+				C8E7DF5B26D10F320051851F /* Tree.gif in Resources */,
+				C8E7DF4326D10E9D0051851F /* Welcome.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A84D0226D011530094D253 /* AppDelegate.swift in Sources */,
-				37B5A48626D0A88100C6B4D8 /* ShowerTimer.swift in Sources */,
-				A9A84D0426D011530094D253 /* Swift+Gif.swift in Sources */,
-				377157A126D0FD07000A7540 /* ShopScreen.swift in Sources */,
-				A9A84D0926D011530094D253 /* ViewController.swift in Sources */,
-				A9A84D0126D011530094D253 /* SceneDelegate.swift in Sources */,
+				C8E7DF4526D10E9D0051851F /* AppDelegate.swift in Sources */,
+				C8E7DF4626D10E9D0051851F /* ShowerTimer.swift in Sources */,
+				C8E7DF3F26D10E9D0051851F /* ViewController.swift in Sources */,
+				C8E7DF4726D10E9D0051851F /* ShopScreen.swift in Sources */,
+				C8E7DF4826D10E9D0051851F /* Swift+Gif.swift in Sources */,
+				C8E7DF4126D10E9D0051851F /* WelcomeViewController.swift in Sources */,
+				C8E7DF4426D10E9D0051851F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

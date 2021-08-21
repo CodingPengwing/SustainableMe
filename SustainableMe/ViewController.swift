@@ -25,6 +25,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var boxTwo: UIButton!
     @IBOutlet weak var boxThree: UIButton!
     
+    static var displayWelcome: Bool = true
+    static var continueDisplay: Bool = false
+    
     
     // checks box one
     @IBAction func boxOneCheck(_ sender: Any) {
@@ -80,8 +83,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         coinLabel.text = " \(coinCount)"
-        tree.loadGif(name:"Fish")
-        snooze.loadGif(name:"snooze")
         if BoxOneCheck{
             boxOne.setImage(UIImage(named: "checked.png"), for: .normal)
         }
@@ -91,10 +92,31 @@ class ViewController: UIViewController {
         if BoxThreeCheck{
             boxThree.setImage(UIImage(named: "checked.png"), for: .normal)
         }
+        
+        if ViewController.continueDisplay{
+            tree.loadGif(name:WelcomeViewController.petName)
+        }
+        
+       
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        //images and gifs
+        if !ViewController.displayWelcome{
+            tree.loadGif(name:WelcomeViewController.petName)
+            ViewController.continueDisplay = true
+        }
+        snooze.loadGif(name:"snooze")
+        
+        if ViewController.displayWelcome{
+            ViewController.displayWelcome = false
+            let storyboard = UIStoryboard(name: "Welcome", bundle: nil)
+            if let welcomeViewController = storyboard.instantiateViewController(identifier: "welcome") as? WelcomeViewController {
+                welcomeViewController.modalPresentationStyle = .fullScreen
+                present(welcomeViewController, animated: true, completion: nil)
+            }
+        }
     }
     
     

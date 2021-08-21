@@ -21,7 +21,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart" translatesAutoresizingMaskIntoConstraints="NO" id="Cgh-cb-TO3">
                                 <rect key="frame" x="250" y="54" width="49" height="45"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fish.gif" translatesAutoresizingMaskIntoConstraints="NO" id="dkM-VA-hQl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent" translatesAutoresizingMaskIntoConstraints="NO" id="dkM-VA-hQl">
                                 <rect key="frame" x="59" y="443" width="296" height="301"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="301" id="DuZ-HJ-ILj"/>
@@ -444,13 +444,13 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Coin" width="45" height="45"/>
-        <image name="Fish.gif" width="256" height="256"/>
         <image name="Heart" width="49.5" height="45"/>
         <image name="base" width="1024" height="262.5"/>
         <image name="grass" width="798" height="606"/>
         <image name="palmtree" width="629" height="968.5"/>
         <image name="shopframe" width="1200" height="1800"/>
         <image name="snooze.gif" width="64" height="256"/>
+        <image name="transparent" width="75" height="75"/>
         <image name="unchecked" width="227" height="206"/>
     </resources>
 </document>
