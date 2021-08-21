@@ -166,19 +166,19 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCq-hV-xic">
-                                <rect key="frame" x="80" y="150" width="314" height="50"/>
+                                <rect key="frame" x="80" y="150" width="30" height="30"/>
                                 <connections>
                                     <segue destination="vVP-wT-x8I" kind="show" id="pyT-Qw-0hZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="iy8-2t-rhd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="iy8-2t-rhd">
                                 <rect key="frame" x="80" y="215" width="309" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="cZc-Bz-eeB" kind="show" id="bO5-w0-vOc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="od5-7k-pdc">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="od5-7k-pdc">
                                 <rect key="frame" x="80" y="280" width="314" height="50"/>
                                 <connections>
                                     <segue destination="XLi-Qn-xUP" kind="show" id="1bt-9d-gpa"/>
@@ -535,7 +535,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shower" translatesAutoresizingMaskIntoConstraints="NO" id="kuS-jO-rnj">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shower" translatesAutoresizingMaskIntoConstraints="NO" id="kuS-jO-rnj">
                                 <rect key="frame" x="51" y="201" width="289" height="398"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -639,14 +639,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="s8v-wX-86o"/>
+        <segue reference="9UE-Lu-nWJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Coin" width="45" height="45"/>
         <image name="Heart" width="49.5" height="45"/>
+        <image name="Shower" width="135" height="205"/>
         <image name="base" width="1024" height="262.5"/>
         <image name="shopframe" width="1200" height="1800"/>
-        <image name="shower" width="135" height="205"/>
         <image name="snooze.gif" width="64" height="256"/>
         <image name="square" catalog="system" width="128" height="114"/>
         <image name="transparent" width="75" height="75"/>
