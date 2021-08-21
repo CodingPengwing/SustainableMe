@@ -90,7 +90,7 @@ class ShopScreen: UIViewController{
         coinCount -= value
         heartCount += value
         coinLabel.text = " \(coinCount)"
-        heartLabel.text = " \(heartCount)/100"
+        heartLabel.text = " \(heartCount)%"
         
     }
     
@@ -104,7 +104,7 @@ class ShopScreen: UIViewController{
         /*
          STEPHENSTEPHENSTEPHENSTEPHENSTEPHEN
          */
-        heartLabel.text = " \(heartCount)/100"
+        heartLabel.text = " \(heartCount)%"
         
         if itemCheckOne{
             giftButtonOne.setImage(UIImage(named: "checked.png"), for: .normal)

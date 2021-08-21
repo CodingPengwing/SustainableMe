@@ -99,7 +99,7 @@ class ViewController: UIViewController {
         taskLabel3.text = tasks[(randomNum+2) % tasks.count]
         
         coinLabel.text = " \(coinCount)"
-        heartLabel.text = " \(heartCount)/100"
+        heartLabel.text = " \(heartCount)%"
         if BoxOneCheck{
             boxOne.setBackgroundImage(UIImage(systemName: "square.fill"), for: .normal)
         }

@@ -13,7 +13,7 @@ class ShowerTimer: UIViewController{
     @IBOutlet weak var startStopButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
     @IBOutlet weak var showerGif: UIImageView!
-    
+    @IBOutlet weak var waterUsageCounter: UILabel!
     
     var timer:Timer = Timer()
     var count:Int = 0
@@ -60,14 +60,18 @@ class ShowerTimer: UIViewController{
         self.count = 0
         self.timer.invalidate()
         self.TimerLabel.text = self.makeTimeString(hours: 0, minutes: 0, seconds: 0)
+        waterUsageCounter.text = String(150*count)+"mL"
     }
     
-    // displays time
+    // displays time and water used
     @objc func timerCounter()-> Void{
         count += 1
         let time = secondsToHoursMinutesSeconds(seconds: count)
         let timeString = makeTimeString(hours: time.0, minutes: time.1, seconds: time.2)
         TimerLabel.text = timeString
+
+        waterUsageCounter.text = String(150*count)+"mL"
+        
     }
     
     // converts to hour mins and secs
