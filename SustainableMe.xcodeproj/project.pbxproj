@@ -25,6 +25,7 @@
 		C8E7DF6426D10F750051851F /* snooze.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF6326D10F750051851F /* snooze.gif */; };
 		C8E7DF6B26D10F970051851F /* Fish.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF6826D10F8C0051851F /* Fish.gif */; };
 		C8E7DF7026D1101F0051851F /* He.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF6F26D110120051851F /* He.gif */; };
+		C8E7DF7626D128A90051851F /* Shower.gif in Resources */ = {isa = PBXBuildFile; fileRef = C8E7DF7526D128A90051851F /* Shower.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		C8E7DF6326D10F750051851F /* snooze.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = snooze.gif; sourceTree = "<group>"; };
 		C8E7DF6826D10F8C0051851F /* Fish.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Fish.gif; sourceTree = "<group>"; };
 		C8E7DF6F26D110120051851F /* He.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = He.gif; sourceTree = "<group>"; };
+		C8E7DF7526D128A90051851F /* Shower.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Shower.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				C8E7DF6826D10F8C0051851F /* Fish.gif */,
 				C8E7DF5A26D10F2D0051851F /* Tree.gif */,
 				C8E7DF6326D10F750051851F /* snooze.gif */,
+				C8E7DF7526D128A90051851F /* Shower.gif */,
 			);
 			path = gifs;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				C8E7DF6426D10F750051851F /* snooze.gif in Resources */,
 				C8E7DF5B26D10F320051851F /* Tree.gif in Resources */,
 				C8E7DF4326D10E9D0051851F /* Welcome.storyboard in Resources */,
+				C8E7DF7626D128A90051851F /* Shower.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

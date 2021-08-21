@@ -21,12 +21,9 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart" translatesAutoresizingMaskIntoConstraints="NO" id="Cgh-cb-TO3">
                                 <rect key="frame" x="250" y="54" width="49" height="45"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent" translatesAutoresizingMaskIntoConstraints="NO" id="dkM-VA-hQl">
-                                <rect key="frame" x="59" y="443" width="296" height="301"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="301" id="DuZ-HJ-ILj"/>
-                                    <constraint firstAttribute="width" constant="296" id="jTc-mP-gqB"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="base" translatesAutoresizingMaskIntoConstraints="NO" id="rH6-yI-wTy">
+                                <rect key="frame" x="-71" y="632" width="557" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palmtree" translatesAutoresizingMaskIntoConstraints="NO" id="GCP-ru-gea">
                                 <rect key="frame" x="-102" y="102" width="375" height="592"/>
@@ -41,9 +38,12 @@
                                     <constraint firstAttribute="height" constant="266" id="1Jy-M9-Eqw"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="base" translatesAutoresizingMaskIntoConstraints="NO" id="rH6-yI-wTy">
-                                <rect key="frame" x="-71" y="632" width="557" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent" translatesAutoresizingMaskIntoConstraints="NO" id="dkM-VA-hQl">
+                                <rect key="frame" x="59" y="443" width="296" height="301"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="301" id="DuZ-HJ-ILj"/>
+                                    <constraint firstAttribute="width" constant="296" id="jTc-mP-gqB"/>
+                                </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grass" translatesAutoresizingMaskIntoConstraints="NO" id="ZGp-jl-iKf">
                                 <rect key="frame" x="182" y="406" width="273" height="606"/>
@@ -405,6 +405,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shower" translatesAutoresizingMaskIntoConstraints="NO" id="kuS-jO-rnj">
+                                <rect key="frame" x="51" y="201" width="289" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nRc-TM-YeY"/>
                         <color key="backgroundColor" red="0.70780072660343196" green="0.82694709202995731" blue="0.96675544980000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -426,6 +430,7 @@
                     <connections>
                         <outlet property="TimerLabel" destination="ZKX-9Q-WM8" id="2IV-F3-YvE"/>
                         <outlet property="resetButton" destination="cGR-bT-INw" id="oZG-Lr-qaJ"/>
+                        <outlet property="showerGif" destination="kuS-jO-rnj" id="Ogk-yS-RUj"/>
                         <outlet property="startStopButton" destination="bMC-6b-HR9" id="EWK-aI-7l0"/>
                     </connections>
                 </viewController>
@@ -440,7 +445,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="s8v-wX-86o"/>
+        <segue reference="9UE-Lu-nWJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Coin" width="45" height="45"/>
@@ -449,6 +454,7 @@
         <image name="grass" width="798" height="606"/>
         <image name="palmtree" width="629" height="968.5"/>
         <image name="shopframe" width="1200" height="1800"/>
+        <image name="shower" width="135" height="205"/>
         <image name="snooze.gif" width="64" height="256"/>
         <image name="transparent" width="75" height="75"/>
         <image name="unchecked" width="227" height="206"/>

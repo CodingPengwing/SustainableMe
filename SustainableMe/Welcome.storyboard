@@ -69,7 +69,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SustainableMe provides a number of daily tasks to encourage you to be more sustainable. Click on the task to find out more!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ye6-gs-MhC">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SustainableMe provides a number of daily tasks to encourage you to be more sustainable. Click on the tasks to find out more!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ye6-gs-MhC">
                                 <rect key="frame" x="20" y="495" width="374" height="223"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -183,12 +183,17 @@
                                 <rect key="frame" x="359" y="219" width="35" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white" translatesAutoresizingMaskIntoConstraints="NO" id="G5J-de-B2t">
+                                <rect key="frame" x="87" y="692" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Kpi-dB-lje"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="waD-HQ-EDh"/>
                     <connections>
+                        <outlet property="coverButtonImage" destination="G5J-de-B2t" id="dAx-DL-gle"/>
                         <outlet property="endButton" destination="Vt1-nX-NhW" id="7Qx-bv-vBf"/>
                         <outlet property="fishStar" destination="Zg1-BW-fC8" id="QWU-Jl-g3p"/>
                         <outlet property="heStar" destination="1BF-8T-Yf8" id="NLb-YG-KEk"/>
@@ -206,6 +211,7 @@
         <image name="Tree.gif" width="256" height="256"/>
         <image name="icon" width="724.5" height="735.5"/>
         <image name="transparent" width="75" height="75"/>
+        <image name="white" width="270" height="100"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

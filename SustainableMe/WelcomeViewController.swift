@@ -11,6 +11,7 @@ class WelcomeViewController: UIViewController {
     @IBOutlet weak var nextButtonA: UIButton!
     @IBOutlet weak var nextButtonB: UIButton!
     @IBOutlet weak var endButton: UIButton!
+    @IBOutlet weak var coverButtonImage: UIImageView!
     static var petName: String = "Tree"
     
     @IBAction func NextButtonATapped(_ sender: UIButton) {
@@ -37,6 +38,7 @@ class WelcomeViewController: UIViewController {
         treeStar.image = UIImage(named:"transparent")
         heStar.image = UIImage(named:"transparent")
         WelcomeViewController.petName = "Fish"
+        coverButtonImage.image = UIImage(named:"transparent")
     }
     
     @IBAction func treeSelect(_ sender: UIButton) {
@@ -44,6 +46,7 @@ class WelcomeViewController: UIViewController {
         fishStar.image = UIImage(named:"transparent")
         heStar.image = UIImage(named:"transparent")
         WelcomeViewController.petName = "Tree"
+        coverButtonImage.image = UIImage(named:"transparent")
     }
     
     @IBAction func heSelect(_ sender: UIButton) {
@@ -51,6 +54,7 @@ class WelcomeViewController: UIViewController {
         fishStar.image = UIImage(named:"transparent")
         treeStar.image = UIImage(named:"transparent")
         WelcomeViewController.petName = "He"
+        coverButtonImage.image = UIImage(named:"transparent")
     }
     
     
