@@ -60,6 +60,9 @@ class ShowerTimer: UIViewController{
         self.count = 0
         self.timer.invalidate()
         self.TimerLabel.text = self.makeTimeString(hours: 0, minutes: 0, seconds: 0)
+        timerCounting = false
+        startStopButton.setTitle("START SHOWER", for: .normal)
+        startStopButton.setTitleColor(UIColor.white, for: .normal)
     }
     
     // displays time
