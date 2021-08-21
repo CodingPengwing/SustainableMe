@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         coinCount = UserDefaults.standard.integer(forKey: "coinCount") as Int
         heartCount = UserDefaults.standard.integer(forKey: "heartCount") as Int
+        
+        // saves store state
+        itemCheckOne = UserDefaults.standard.bool(forKey: "itemCheckOne") as Bool
+        itemCheckTwo = UserDefaults.standard.bool(forKey: "itemCheckTwo") as Bool
+        itemCheckThree = UserDefaults.standard.bool(forKey: "itemCheckThree") as Bool
+        itemCheckFour = UserDefaults.standard.bool(forKey: "itemCheckFour") as Bool
+        itemCheckFive = UserDefaults.standard.bool(forKey: "itemCheckFive") as Bool
+        itemCheckSix = UserDefaults.standard.bool(forKey: "itemCheckSix") as Bool
+
         return true
     }
 
@@ -32,9 +41,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
         UserDefaults.standard.set(coinCount, forKey: "coinCount")
-        UserDefaults.standard.set(coinCount, forKey: "heartCount")
+        UserDefaults.standard.set(heartCount, forKey: "heartCount")
+        
+        //saves shop state
+        UserDefaults.standard.set(itemCheckOne, forKey: "itemCheckOne")
+        UserDefaults.standard.set(itemCheckTwo, forKey: "itemCheckTwo")
+        UserDefaults.standard.set(itemCheckThree, forKey: "itemCheckThree")
+        UserDefaults.standard.set(itemCheckFour, forKey: "itemCheckFour")
+        UserDefaults.standard.set(itemCheckFive, forKey: "itemCheckFive")
+        UserDefaults.standard.set(itemCheckSix, forKey: "itemCheckSix")
     }
 
-
 }
-

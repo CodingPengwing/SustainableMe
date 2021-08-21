@@ -40,7 +40,7 @@ class ShopScreen: UIViewController{
         if coinCount > 0 && heartCount < 100 && !itemCheckOne{
             itemCheckOne = true
             buyGift(1)
-            giftButtonOne.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonOne.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
     }
     
@@ -48,7 +48,7 @@ class ShopScreen: UIViewController{
         if coinCount > 0 && heartCount < 100 && !itemCheckTwo{
             itemCheckTwo = true
             buyGift(1)
-            giftButtonTwo.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonTwo.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
     }
     
@@ -56,7 +56,7 @@ class ShopScreen: UIViewController{
         if coinCount > 2 && heartCount < 98 && !itemCheckThree{
             itemCheckThree = true
             buyGift(3)
-            giftButtonThree.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonThree.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
     }
     
@@ -64,7 +64,7 @@ class ShopScreen: UIViewController{
         if coinCount > 2 && heartCount < 98 && !itemCheckFour{
             itemCheckFour = true
             buyGift(3)
-            giftButtonFour.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonFour.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
     }
     
@@ -73,7 +73,7 @@ class ShopScreen: UIViewController{
         if coinCount > 4 && heartCount < 96 && !itemCheckFive{
             itemCheckFive = true
             buyGift(5)
-            giftButtonFive.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonFive.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
     }
     
@@ -82,7 +82,7 @@ class ShopScreen: UIViewController{
         if coinCount > 4 && heartCount < 96 && !itemCheckSix{
             itemCheckSix = true
             buyGift(5)
-            giftButtonFour.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonFour.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
     }
     
@@ -107,22 +107,22 @@ class ShopScreen: UIViewController{
         heartLabel.text = " \(heartCount)%"
         
         if itemCheckOne{
-            giftButtonOne.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonOne.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
         if itemCheckTwo{
-            giftButtonTwo.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonTwo.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
         if itemCheckThree{
-            giftButtonThree.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonThree.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
         if itemCheckFour{
-            giftButtonFour.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonFour.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
         if itemCheckFive{
-            giftButtonFive.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonFive.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
         if itemCheckSix{
-            giftButtonSix.setImage(UIImage(named: "checked.png"), for: .normal)
+            giftButtonSix.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
         /*
          STEPHENSTEPHENSTEPHENSTEPHENSTEPHEN

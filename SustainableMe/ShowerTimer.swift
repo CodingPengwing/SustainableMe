@@ -36,7 +36,7 @@ class ShowerTimer: UIViewController{
         
         
         if (timerCounting){
-            showerGif.image = UIImage(named: "Shower")
+            showerGif.image = UIImage(named: "shower")
             timerCounting = false
             timer.invalidate()
             startStopButton.setTitle("START SHOWER", for: .normal)
@@ -56,11 +56,14 @@ class ShowerTimer: UIViewController{
     
     // reset button
     @IBAction func resetTapped(_ sender: Any) {
-        showerGif.image = UIImage(named: "Shower")
+        showerGif.image = UIImage(named: "shower")
         self.count = 0
         self.timer.invalidate()
         self.TimerLabel.text = self.makeTimeString(hours: 0, minutes: 0, seconds: 0)
         waterUsageCounter.text = String(150*count)+"mL"
+        timerCounting = false
+        startStopButton.setTitle("START SHOWER", for: .normal)
+        startStopButton.setTitleColor(UIColor.white, for: .normal)
     }
     
     // displays time and water used
