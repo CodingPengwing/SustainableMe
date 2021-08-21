@@ -14,10 +14,11 @@ var BoxOneCheck = false
 var BoxTwoCheck = false
 var BoxThreeCheck = false
 
-var tasks = ["Eat less meat", "Take quick showers", "Turn off the lights when you leave the room", "ABC", "Turn off the lights when you leave the room", "SKJDF", "Turn off the lights when you leave the room"]
+var tasks = ["Eat less meat", "Take quick showers", "Turn off the lights when you leave the room"]
 
 var descriptions = ["In 2014, the Food and Agriculture Organization of the United Nations noted that livestock in general make up 14.5% of all human-induced emissions. Reducing the impact of this livestock by reducing the need for it and improving farming practices can help lower this impact.", "Even water saving shower heads use ~9 L/minute", "Leaving your lights on can use a siginficant amount of electricity (unless you have LED lights) in addition to decreasing the lifespan of lights"]
 
+let randomNum = Int.random(in: 0...(tasks.count - 1))
 
 
 class ViewController: UIViewController {
@@ -93,10 +94,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let randomNum = Int.random(in: 0...(tasks.count - 1))
+        // randomize a number and show the tasks accordingly
+        
         taskLabel1.text = tasks[randomNum]
         taskLabel2.text = tasks[(randomNum+1) % tasks.count]
         taskLabel3.text = tasks[(randomNum+2) % tasks.count]
+        
+        // get the descriptions for the tasks
+//        description1.text = descriptions[randomNum]
+//        description2.text = descriptions[(randomNum+1) % tasks.count]
+//        description3.text = descriptions[(randomNum+2) % tasks.count]
         
         coinLabel.text = " \(coinCount)"
         heartLabel.text = " \(heartCount)/100"

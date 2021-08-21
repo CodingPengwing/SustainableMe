@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A983337226D13E1800604E98 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A983337126D13E1800604E98 /* DescriptionView.swift */; };
 		A9A84CDA26D011230094D253 /* SustainableMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CD926D011230094D253 /* SustainableMeTests.swift */; };
 		A9A84CE526D011230094D253 /* SustainableMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CE426D011230094D253 /* SustainableMeUITests.swift */; };
 		C8E7DF3F26D10E9D0051851F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7DF3326D10E9B0051851F /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A983337126D13E1800604E98 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		A9A84CBF26D011200094D253 /* SustainableMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SustainableMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A84CD026D011220094D253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9A84CD526D011230094D253 /* SustainableMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SustainableMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 				C8E7DF3B26D10E9C0051851F /* ShopScreen.swift */,
 				C8E7DF3A26D10E9C0051851F /* ShowerTimer.swift */,
 				C8E7DF3C26D10E9C0051851F /* Swift+Gif.swift */,
+				A983337126D13E1800604E98 /* DescriptionView.swift */,
 				C8E7DF3326D10E9B0051851F /* ViewController.swift */,
 				C8E7DF3726D10E9C0051851F /* Welcome.storyboard */,
 				C8E7DF3526D10E9C0051851F /* WelcomeViewController.swift */,
@@ -316,6 +319,7 @@
 				C8E7DF4826D10E9D0051851F /* Swift+Gif.swift in Sources */,
 				C8E7DF4126D10E9D0051851F /* WelcomeViewController.swift in Sources */,
 				C8E7DF4426D10E9D0051851F /* SceneDelegate.swift in Sources */,
+				A983337226D13E1800604E98 /* DescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
