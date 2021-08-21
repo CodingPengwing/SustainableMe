@@ -49,7 +49,7 @@ class ShowerTimer: UIViewController{
             timerCounting = true
             startStopButton.setTitle("FINISH SHOWER", for: .normal)
             startStopButton.setTitleColor(UIColor.white, for: .normal)
-            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerCounter), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 0.00001, target: self, selector: #selector(timerCounter), userInfo: nil, repeats: true)
         }
         
     }
