@@ -14,6 +14,11 @@ var BoxOneCheck = false
 var BoxTwoCheck = false
 var BoxThreeCheck = false
 
+var tasks = ["Eat less meat", "Take quick showers", "Turn off the lights when you leave the room", "ABC", "Turn off the lights when you leave the room", "SKJDF", "Turn off the lights when you leave the room"]
+
+var descriptions = ["In 2014, the Food and Agriculture Organization of the United Nations noted that livestock in general make up 14.5% of all human-induced emissions. Reducing the impact of this livestock by reducing the need for it and improving farming practices can help lower this impact.", "Even water saving shower heads use ~9 L/minute", "Leaving your lights on can use a siginficant amount of electricity (unless you have LED lights) in addition to decreasing the lifespan of lights"]
+
+
 
 class ViewController: UIViewController {
     @IBOutlet weak var tree: UIImageView!
@@ -25,6 +30,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var boxTwo: UIButton!
     @IBOutlet weak var boxThree: UIButton!
     
+    @IBOutlet var taskLabel1: UILabel!
+    @IBOutlet var taskLabel2: UILabel!
+    @IBOutlet var taskLabel3: UILabel!
+    
     static var displayWelcome: Bool = true
     static var continueDisplay: Bool = false
     
@@ -32,14 +41,14 @@ class ViewController: UIViewController {
     // checks box one
     @IBAction func boxOneCheck(_ sender: Any) {
         if (BoxOneCheck == false){
-            boxOne.setImage(UIImage(named: "checked.png"), for: .normal)
+            boxOne.setBackgroundImage(UIImage(systemName: "square.fill"), for: .normal)
             if (coinCount < 1000){
                 coinCount += 1
             }
             BoxOneCheck = true
         }
         else {
-            boxOne.setImage(UIImage(named: "unchecked.png"), for: .normal)
+            boxOne.setBackgroundImage(UIImage(systemName: "square"), for: .normal)
             coinCount -= 1
             BoxOneCheck = false
         }
@@ -49,14 +58,14 @@ class ViewController: UIViewController {
     // checks box two lmao
     @IBAction func boxTwoCheck(_ sender: Any) {
         if (BoxTwoCheck == false){
-            boxTwo.setImage(UIImage(named: "checked.png"), for: .normal)
+            boxTwo.setBackgroundImage(UIImage(systemName: "square.fill"), for: .normal)
             if (coinCount < 1000){
                 coinCount += 1
             }
             BoxTwoCheck = true
         }
         else {
-            boxTwo.setImage(UIImage(named: "unchecked.png"), for: .normal)
+            boxTwo.setBackgroundImage(UIImage(systemName: "square"), for: .normal)
             coinCount -= 1
             BoxTwoCheck = false
         }
@@ -65,14 +74,14 @@ class ViewController: UIViewController {
     // checks box three lmao
     @IBAction func boxThreeCheck(_ sender: Any) {
         if (BoxThreeCheck == false){
-            boxThree.setImage(UIImage(named: "checked.png"), for: .normal)
+            boxThree.setBackgroundImage(UIImage(systemName: "square.fill"), for: .normal)
             if (coinCount < 1000){
                 coinCount += 1
             }
             BoxThreeCheck = true
         }
         else {
-            boxThree.setImage(UIImage(named: "unchecked.png"), for: .normal)
+            boxThree.setBackgroundImage(UIImage(systemName: "square"), for: .normal)
             coinCount -= 1
             BoxThreeCheck = false
         }
@@ -82,15 +91,21 @@ class ViewController: UIViewController {
     // stuff the screen does right as the scene loads
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let randomNum = Int.random(in: 0...(tasks.count - 1))
+        taskLabel1.text = tasks[randomNum]
+        taskLabel2.text = tasks[(randomNum+1) % tasks.count]
+        taskLabel3.text = tasks[(randomNum+2) % tasks.count]
+        
         coinLabel.text = " \(coinCount)"
         if BoxOneCheck{
-            boxOne.setImage(UIImage(named: "checked.png"), for: .normal)
+            boxOne.setBackgroundImage(UIImage(systemName: "square.fill"), for: .normal)
         }
         if BoxTwoCheck{
-            boxTwo.setImage(UIImage(named: "checked.png"), for: .normal)
+            boxTwo.setBackgroundImage(UIImage(systemName: "square.fill"), for: .normal)
         }
         if BoxThreeCheck{
-            boxThree.setImage(UIImage(named: "checked.png"), for: .normal)
+            boxThree.setBackgroundImage(UIImage(systemName: "square.fill"), for: .normal)
         }
         
         if ViewController.continueDisplay{
