@@ -80,7 +80,7 @@ class ShopScreen: UIViewController{
         if coinCount > 4 && heartCount < 96 && !itemCheckSix{
             itemCheckSix = true
             buyGift(5)
-            giftButtonFour.setImage(UIImage(named: "soldout.png"), for: .normal)
+            giftButtonSix.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
     }
     
