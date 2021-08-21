@@ -539,30 +539,31 @@
                                     <action selector="resetTapped:" destination="hb9-LT-LJl" eventType="touchUpInside" id="tlc-Hg-Qnk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOWER TIMER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u83-7h-ES5">
-                                <rect key="frame" x="51.5" y="74" width="311" height="46"/>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="39"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shower" translatesAutoresizingMaskIntoConstraints="NO" id="kuS-jO-rnj">
+                                <rect key="frame" x="51" y="199" width="289" height="398"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="water used:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQy-de-mAq">
+                                <rect key="frame" x="76" y="573" width="260" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="23"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shower" translatesAutoresizingMaskIntoConstraints="NO" id="kuS-jO-rnj">
-                                <rect key="frame" x="51" y="201" width="289" height="398"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6a-ee-R9u">
+                                <rect key="frame" x="76" y="604" width="260" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amount of water used:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQy-de-mAq">
-                                <rect key="frame" x="51" y="128" width="260" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="23"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0L" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6a-ee-R9u">
-                                <rect key="frame" x="51" y="159" width="260" height="34"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SHOWER TIMER" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEX-b4-cAO">
+                                <rect key="frame" x="62" y="54" width="289" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="60"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nRc-TM-YeY"/>
                         <color key="backgroundColor" red="0.70780072660343196" green="0.82694709202995731" blue="0.96675544980000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -570,12 +571,10 @@
                         <constraints>
                             <constraint firstItem="bMC-6b-HR9" firstAttribute="top" secondItem="ZKX-9Q-WM8" secondAttribute="bottom" constant="25.5" id="87x-Zv-xdE"/>
                             <constraint firstItem="cGR-bT-INw" firstAttribute="top" secondItem="bMC-6b-HR9" secondAttribute="bottom" constant="-2" id="F9y-99-1ri"/>
-                            <constraint firstItem="u83-7h-ES5" firstAttribute="top" secondItem="nRc-TM-YeY" secondAttribute="top" constant="30" id="T6L-pK-Mxx"/>
                             <constraint firstItem="bMC-6b-HR9" firstAttribute="centerX" secondItem="nRc-TM-YeY" secondAttribute="centerX" id="Xwd-cg-TQM"/>
                             <constraint firstItem="ZKX-9Q-WM8" firstAttribute="top" secondItem="nRc-TM-YeY" secondAttribute="top" constant="603" id="f77-qm-V6S"/>
                             <constraint firstItem="ZKX-9Q-WM8" firstAttribute="centerX" secondItem="nRc-TM-YeY" secondAttribute="centerX" id="jJR-W9-txo"/>
                             <constraint firstItem="cGR-bT-INw" firstAttribute="centerX" secondItem="nRc-TM-YeY" secondAttribute="centerX" id="yZA-7I-Yig"/>
-                            <constraint firstItem="u83-7h-ES5" firstAttribute="centerX" secondItem="nRc-TM-YeY" secondAttribute="centerX" id="z1b-Kp-3Xn"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="LAV-LX-b1O" appends="YES" id="A2w-wP-HYz"/>
@@ -664,7 +663,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9UE-Lu-nWJ"/>
+        <segue reference="s8v-wX-86o"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Coin" width="45" height="45"/>
