@@ -6,25 +6,18 @@
 //
 
 import UIKit
-/*
- STEPHENSTEPHENSTEPHENSTEPHENSTEPHEN
- */
+
 var itemCheckOne   = false
 var itemCheckTwo   = false
 var itemCheckThree = false
 var itemCheckFour  = false
 var itemCheckFive  = false
 var itemCheckSix   = false
-/*
- STEPHENSTEPHENSTEPHENSTEPHENSTEPHEN
- */
+
 class ShopScreen: UIViewController{
     
     @IBOutlet var coinLabelShop: UILabel!
     @IBOutlet var heartLabelShop: UILabel!
-    /*
-     STEPHENSTEPHENSTEPHENSTEPHENSTEPHEN
-     */
 
     @IBOutlet weak var giftButtonOne: UIButton!
     @IBOutlet weak var giftButtonTwo: UIButton!
@@ -91,17 +84,11 @@ class ShopScreen: UIViewController{
         heartLabelShop.text = " \(heartCount)%"
         
     }
-    
-    /*
-     STEPHENSTEPHENSTEPHENSTEPHENSTEPHEN
-     */
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         coinLabelShop.text = " \(coinCount)"
-        /*
-         STEPHENSTEPHENSTEPHENSTEPHENSTEPHEN
-         */
         heartLabelShop.text = " \(heartCount)%"
         
         if itemCheckOne{
@@ -122,9 +109,6 @@ class ShopScreen: UIViewController{
         if itemCheckSix{
             giftButtonSix.setImage(UIImage(named: "soldout.png"), for: .normal)
         }
-        /*
-         STEPHENSTEPHENSTEPHENSTEPHENSTEPHEN
-         */
     }
     
 }

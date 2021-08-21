@@ -16,16 +16,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBb-aU-69Y">
-                                <rect key="frame" x="40" y="70" width="334" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBb-aU-69Y">
+                                <rect key="frame" x="40" y="70" width="334" height="21"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="21"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_lonely" translatesAutoresizingMaskIntoConstraints="NO" id="7kc-KV-TwA">
+                                <rect key="frame" x="87" y="540" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="fRY-P8-qET"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Description" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zk1-vc-gbo">
+                                <rect key="frame" x="40" y="70" width="334" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BwT-ua-UP7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="7kc-KV-TwA" firstAttribute="top" secondItem="nBb-aU-69Y" secondAttribute="bottom" constant="449" id="71d-Nh-Vmb"/>
+                            <constraint firstItem="7kc-KV-TwA" firstAttribute="leading" secondItem="BwT-ua-UP7" secondAttribute="leading" constant="87" id="V5G-18-MNV"/>
+                            <constraint firstItem="BwT-ua-UP7" firstAttribute="bottom" secondItem="7kc-KV-TwA" secondAttribute="bottom" constant="140" id="eja-kg-BzU"/>
+                            <constraint firstItem="7kc-KV-TwA" firstAttribute="centerX" secondItem="nBb-aU-69Y" secondAttribute="centerX" id="pcA-EY-khJ"/>
                             <constraint firstItem="nBb-aU-69Y" firstAttribute="leading" secondItem="BwT-ua-UP7" secondAttribute="leading" constant="40" id="tjs-Kq-sXo"/>
                             <constraint firstItem="nBb-aU-69Y" firstAttribute="top" secondItem="BwT-ua-UP7" secondAttribute="top" constant="70" id="xVH-TQ-r09"/>
                             <constraint firstItem="BwT-ua-UP7" firstAttribute="trailing" secondItem="nBb-aU-69Y" secondAttribute="trailing" constant="40" id="yBN-wA-rwS"/>
@@ -33,7 +51,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="xbU-Y1-nuc"/>
                     <connections>
-                        <outlet property="description1" destination="nBb-aU-69Y" id="efl-eM-Tgy"/>
+                        <outlet property="description1" destination="Zk1-vc-gbo" id="BUh-nK-812"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YdX-yz-tmp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -55,8 +73,8 @@
                                 <rect key="frame" x="-71" y="627" width="557" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snooze.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Sax-bs-tB9">
-                                <rect key="frame" x="292" y="272" width="64" height="266"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent" translatesAutoresizingMaskIntoConstraints="NO" id="Sax-bs-tB9">
+                                <rect key="frame" x="281" y="272" width="75" height="266"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="266" id="1Jy-M9-Eqw"/>
                                 </constraints>
@@ -96,8 +114,8 @@
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azw-wK-cWY">
                                                 <rect key="frame" x="60" y="0.0" width="314" height="50"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="21"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -121,8 +139,8 @@
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qda-L9-mfh">
                                                 <rect key="frame" x="60" y="0.0" width="314" height="50"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="21"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -146,8 +164,8 @@
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S35-MG-qgG">
                                                 <rect key="frame" x="60" y="0.0" width="314" height="50"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="21"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -156,6 +174,10 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCq-hV-xic">
                                 <rect key="frame" x="80" y="150" width="314" height="50"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="20"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="vVP-wT-x8I" kind="show" id="pyT-Qw-0hZ"/>
                                 </connections>
@@ -169,6 +191,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="od5-7k-pdc">
                                 <rect key="frame" x="80" y="280" width="314" height="50"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="XLi-Qn-xUP" kind="show" id="1bt-9d-gpa"/>
                                 </connections>
@@ -607,29 +632,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xO3-xv-20W">
-                                <rect key="frame" x="40" y="70" width="334" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xO3-xv-20W">
+                                <rect key="frame" x="40" y="70" width="334" height="21"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="21"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_lonely" translatesAutoresizingMaskIntoConstraints="NO" id="zW7-xG-evi">
+                                <rect key="frame" x="87" y="540" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="VOS-UO-bUd"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Description" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZ9-Gg-YWz">
+                                <rect key="frame" x="40" y="70" width="334" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JaJ-HS-IlL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="zW7-xG-evi" firstAttribute="centerX" secondItem="xO3-xv-20W" secondAttribute="centerX" id="8HV-hr-gxu"/>
+                            <constraint firstItem="zW7-xG-evi" firstAttribute="leading" secondItem="JaJ-HS-IlL" secondAttribute="leading" constant="87" id="9uL-Tu-Uet"/>
                             <constraint firstItem="xO3-xv-20W" firstAttribute="leading" secondItem="JaJ-HS-IlL" secondAttribute="leading" constant="40" id="Vgz-G0-uWF"/>
+                            <constraint firstItem="zW7-xG-evi" firstAttribute="top" secondItem="xO3-xv-20W" secondAttribute="bottom" constant="449" id="jOf-Ld-mOD"/>
                             <constraint firstItem="JaJ-HS-IlL" firstAttribute="trailing" secondItem="xO3-xv-20W" secondAttribute="trailing" constant="40" id="mwC-aO-tHV"/>
                             <constraint firstItem="xO3-xv-20W" firstAttribute="top" secondItem="JaJ-HS-IlL" secondAttribute="top" constant="70" id="vQ8-pi-3bj"/>
+                            <constraint firstItem="JaJ-HS-IlL" firstAttribute="bottom" secondItem="zW7-xG-evi" secondAttribute="bottom" constant="140" id="vSC-ug-Hka"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XlF-hk-Vjh"/>
                     <connections>
-                        <outlet property="description2" destination="xO3-xv-20W" id="SS7-Eb-2yN"/>
+                        <outlet property="description2" destination="GZ9-Gg-YWz" id="ybK-F3-NjC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hVv-5z-BbT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="332" y="-814"/>
+            <point key="canvasLocation" x="331.8840579710145" y="-814.28571428571422"/>
         </scene>
         <!--Description View-->
         <scene sceneID="oud-QC-sve">
@@ -639,33 +682,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTm-Wl-59d">
-                                <rect key="frame" x="40" y="70" width="334" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTm-Wl-59d">
+                                <rect key="frame" x="40" y="70" width="334" height="21"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="21"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_lonely" translatesAutoresizingMaskIntoConstraints="NO" id="3F4-KM-qZD">
+                                <rect key="frame" x="87" y="540" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Bkh-Ci-i2a"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Description" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="683-Ry-Cpa">
+                                <rect key="frame" x="40" y="70" width="334" height="308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="upT-qE-pnZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="upT-qE-pnZ" firstAttribute="bottom" secondItem="3F4-KM-qZD" secondAttribute="bottom" constant="140" id="EbN-D0-t7L"/>
                             <constraint firstItem="WTm-Wl-59d" firstAttribute="leading" secondItem="upT-qE-pnZ" secondAttribute="leading" constant="40" id="KQt-uX-fxF"/>
+                            <constraint firstItem="3F4-KM-qZD" firstAttribute="centerX" secondItem="WTm-Wl-59d" secondAttribute="centerX" id="LEo-ea-Gec"/>
                             <constraint firstItem="upT-qE-pnZ" firstAttribute="trailing" secondItem="WTm-Wl-59d" secondAttribute="trailing" constant="40" id="OFY-VE-x2t"/>
+                            <constraint firstItem="3F4-KM-qZD" firstAttribute="top" secondItem="WTm-Wl-59d" secondAttribute="bottom" constant="449" id="Onm-RW-1GB"/>
+                            <constraint firstItem="3F4-KM-qZD" firstAttribute="leading" secondItem="upT-qE-pnZ" secondAttribute="leading" constant="87" id="PPS-Ry-Gbg"/>
                             <constraint firstItem="WTm-Wl-59d" firstAttribute="top" secondItem="upT-qE-pnZ" secondAttribute="top" constant="70" id="lUO-7N-OQU"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SKG-aP-Z0n"/>
                     <connections>
-                        <outlet property="description3" destination="WTm-Wl-59d" id="rRS-or-ZXB"/>
+                        <outlet property="description3" destination="683-Ry-Cpa" id="yK3-aI-Qua"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZE-5d-GWX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1183" y="-814"/>
+            <point key="canvasLocation" x="1182.608695652174" y="-814.28571428571422"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9UE-Lu-nWJ"/>
+        <segue reference="s8v-wX-86o"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Coin" width="45" height="45"/>
@@ -676,9 +737,9 @@
         <image name="cherry" width="1000" height="1000"/>
         <image name="donut" width="300" height="300"/>
         <image name="flower" width="200" height="200"/>
+        <image name="icon_lonely" width="1449" height="1471"/>
         <image name="shopframe" width="1200" height="1800"/>
         <image name="shower" width="270" height="410"/>
-        <image name="snooze.gif" width="64" height="256"/>
         <image name="square" catalog="system" width="128" height="114"/>
         <image name="tennisball" width="200" height="200"/>
         <image name="transparent" width="75" height="75"/>

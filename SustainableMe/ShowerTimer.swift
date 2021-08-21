@@ -22,13 +22,7 @@ class ShowerTimer: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         startStopButton.setTitleColor(UIColor.white, for: .normal)
-//        showerGif.loadGif(name: "Shower")
- 
     }
-    
-//    func bruhmoment(){
-//        showerGif.loadGif(name: "Shower")
-//    }
     
 
     // start button
@@ -42,7 +36,6 @@ class ShowerTimer: UIViewController{
             startStopButton.setTitle("START SHOWER", for: .normal)
             startStopButton.setTitleColor(UIColor.white, for: .normal)
         }
-        
         
         else{
             showerGif.loadGif(name: "Shower")
