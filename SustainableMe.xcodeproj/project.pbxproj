@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		377157A126D0FD07000A7540 /* ShopScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377157A026D0FD07000A7540 /* ShopScreen.swift */; };
 		37B5A48626D0A88100C6B4D8 /* ShowerTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B5A48526D0A88100C6B4D8 /* ShowerTimer.swift */; };
 		A9A84CDA26D011230094D253 /* SustainableMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CD926D011230094D253 /* SustainableMeTests.swift */; };
 		A9A84CE526D011230094D253 /* SustainableMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A84CE426D011230094D253 /* SustainableMeUITests.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		377157A026D0FD07000A7540 /* ShopScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopScreen.swift; sourceTree = "<group>"; };
 		37B5A48526D0A88100C6B4D8 /* ShowerTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerTimer.swift; sourceTree = "<group>"; };
 		A9A84CBF26D011200094D253 /* SustainableMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SustainableMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A84CD026D011220094D253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				A9A84CFA26D011530094D253 /* Swift+Gif.swift */,
 				A9A84D0026D011530094D253 /* ViewController.swift */,
 				A9A84CF426D011410094D253 /* Main.storyboard */,
+				377157A026D0FD07000A7540 /* ShopScreen.swift */,
 				37B5A48526D0A88100C6B4D8 /* ShowerTimer.swift */,
 				A9A84CF226D011390094D253 /* Assets.xcassets */,
 				A9A84CD026D011220094D253 /* Info.plist */,
@@ -294,6 +297,7 @@
 				A9A84D0226D011530094D253 /* AppDelegate.swift in Sources */,
 				37B5A48626D0A88100C6B4D8 /* ShowerTimer.swift in Sources */,
 				A9A84D0426D011530094D253 /* Swift+Gif.swift in Sources */,
+				377157A126D0FD07000A7540 /* ShopScreen.swift in Sources */,
 				A9A84D0926D011530094D253 /* ViewController.swift in Sources */,
 				A9A84D0126D011530094D253 /* SceneDelegate.swift in Sources */,
 			);
