@@ -12,6 +12,8 @@ class ShowerTimer: UIViewController{
     @IBOutlet weak var TimerLabel: UILabel!
     @IBOutlet weak var startStopButton: UIButton!
     @IBOutlet weak var resetButton: UIButton!
+    @IBOutlet weak var showerGif: UIImageView!
+    
     
     var timer:Timer = Timer()
     var count:Int = 0
@@ -20,19 +22,30 @@ class ShowerTimer: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         startStopButton.setTitleColor(UIColor.white, for: .normal)
+//        showerGif.loadGif(name: "Shower")
+ 
     }
     
+//    func bruhmoment(){
+//        showerGif.loadGif(name: "Shower")
+//    }
     
+
     // start button
     @IBAction func startStopTapped(_ sender: Any) {
         
+        
         if (timerCounting){
+            showerGif.image = UIImage(named: "shower")
             timerCounting = false
             timer.invalidate()
             startStopButton.setTitle("START SHOWER", for: .normal)
             startStopButton.setTitleColor(UIColor.white, for: .normal)
         }
+        
+        
         else{
+            showerGif.loadGif(name: "Shower")
             timerCounting = true
             startStopButton.setTitle("FINISH SHOWER", for: .normal)
             startStopButton.setTitleColor(UIColor.white, for: .normal)
